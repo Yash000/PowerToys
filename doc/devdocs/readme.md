@@ -52,6 +52,9 @@ We have submodules that need to be initialized before you can compile most parts
 
 ### Compiling Source Code
 
+- Open `PowerToys.sln` in Visual Studio, in the `Solutions Configuration` drop-down menu select `Release` or `Debug`, from the `Build` menu choose `Build Solution`.
+- The PowerToys binaries will be in your repo under `x64\Release\`.
+- You can run `x64\Release\PowerToys.exe` directly without installing PowerToys, but some modules (i.e. PowerRename, ImageResizer, File Explorer extension etc.) will not be available unless you also build the installer and install PowerToys.
 
 ## Compile the installer
 
